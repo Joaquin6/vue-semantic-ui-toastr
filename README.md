@@ -11,7 +11,7 @@ $ npm install vue-semantic-ui-toastr --save
 
 
 ## Examples
-
+[Demo][demo]
 ```js
 // main.js
 import Vue from 'vue'
@@ -35,3 +35,5 @@ this.$toastr
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 <!-- ![](https://img.shields.io/badge/status-stable-green.svg) -->
+
+[demo]: https://jsfiddle.net/gongzza/szLhkfjk/
