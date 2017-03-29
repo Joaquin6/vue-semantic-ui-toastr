@@ -10,7 +10,7 @@ const openToastr = (propsData) => {
 }
 
 class ToastrHelper {
-  constructor(duration = 3000, container = '.toastr-container', autoshow = true, html = false) {
+  constructor(duration = 3000, container = '.toastr-container', autoshow = true, html = false, position = 'right top') {
     this.header = ''
     this.message = ''
     this.type = ''
@@ -18,6 +18,7 @@ class ToastrHelper {
     this.container = container
     this.autoshow = autoshow
     this.html = html
+    this.position = position
   }
 
   h(header) {
