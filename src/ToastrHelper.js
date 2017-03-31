@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Toastr from './Toastr.vue'
 
-const ToastrCotr = Vue.extend(Toastr)
+const ToastrCtor = Vue.extend(Toastr)
 const openToastr = (propsData) => {
-  return new ToastrCotr({
+  return new ToastrCtor({
     el: document.createElement('div'),
     propsData
   })
