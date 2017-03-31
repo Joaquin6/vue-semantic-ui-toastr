@@ -21,7 +21,8 @@ Vue.use(Toastr, {
   duration: 3000,
   container: '.toastr-container',
   autoshow: true,
-  html: false
+  html: false,
+  position: 'right top'
 })
 
 // App.vue
